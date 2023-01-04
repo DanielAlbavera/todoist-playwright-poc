@@ -1,0 +1,16 @@
+{
+  "name": "todoist-playwright-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-api" : "npx playwright test tests/api --config=playwright-api.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.29.1",
+    "dotenv": "^16.0.3"
+  }
+}
